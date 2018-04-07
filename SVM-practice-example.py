@@ -4,6 +4,9 @@
 # After getting a separating hyperplane u can deal with unknown points
 # Intuition of SVM is done by finding best seperating hyperplane and then after we
 # can easily classify new data points.
+#yi refers to the class
+# equation to derive support vector: yi(xi+w+b)-1 = 0
+
 
 import numpy as np
 from sklearn import preprocessing, cross_validation, neighbors, svm
